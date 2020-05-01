@@ -6,4 +6,4 @@ for(let i = 0; i < searchResults.length; i++) {
   links.push(searchResults[i].href);
 }
 
-links.toString();
+links.toString().split(",").join("\n");
